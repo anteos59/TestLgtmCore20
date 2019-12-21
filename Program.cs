@@ -1,4 +1,5 @@
 ﻿using System;
+using TestLgtmCore20.BattleNetLib;
 
 namespace TestLgtmCore20
 {
@@ -6,7 +7,9 @@ namespace TestLgtmCore20
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Test LGTM Dotnet Core 2.0");
+            OAuthAccessToken accessToken = new OAuthAccessToken();
+            accessToken.AccessToken = "Test LGTM Dotnet Core 2.0";
+            Console.WriteLine(accessToken.AccessToken);
         }
     }
 }
