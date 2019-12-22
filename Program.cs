@@ -8,7 +8,7 @@ namespace TestLgtmCore20
         static void Main(string[] args)
         {
             OAuthAccessToken accessToken = new OAuthAccessToken();
-            accessToken.AccessToken = "Test LGTM Dotnet Core 2.1";
+            accessToken.AccessToken = "Test LGTM Dotnet Core 3.0";
             Console.WriteLine(accessToken.AccessToken);
         }
     }
